@@ -1,9 +1,8 @@
-import setupHome from 'pages/home.js';
-import setupDemo from 'pages/demo.js';
-import setupSearch from 'components/search.js';
-import setupHovers from 'components/hover.js';
-import setupPrefetch from 'components/prefetch.js';
-import setupNavigation from 'components/navigation.js';
+import setupHome from './pages/demo.js';
+import setupSearch from './components/search.js';
+import setupHovers from './components/hover.js';
+import setupPrefetch from './components/prefetch.js';
+import setupNavigation from './components/navigation.js';
 
 import AnchorJS from 'anchor-js';
 

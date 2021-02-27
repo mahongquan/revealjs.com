@@ -2,7 +2,7 @@ import lunr from 'lunr';
 import trim from 'lodash/trim';
 import throttle from 'lodash/throttle';
 import debounce from 'lodash/debounce';
-import setupHovers from 'components/hover.js';
+import setupHovers from './hover.js';
 
 // Based on:
 // https://www.raymondcamden.com/2019/10/20/adding-search-to-your-eleventy-static-site-with-lunr
