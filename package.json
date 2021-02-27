@@ -9,7 +9,6 @@
     "sass": "node-sass css/main.scss>css/main.css",
     "post": "postcss css/main.css -o dist/main.css",
     "e":"esbuild --define:process.env.NODE_ENV=\"production\" --sourcemap --bundle --watch js/main.js --outfile=dist/main.js",
-    "production": "NODE_ENV=production gulp build && NODE_ENV=production npx @11ty/eleventy --config=eleventy.config.js"
   },
   "repository": {
     "type": "git",
@@ -25,11 +24,8 @@
   "devDependencies": {
     "@11ty/eleventy": "latest",
     "@11ty/eleventy-plugin-syntaxhighlight": "latest",
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
     "anchor-js": "latest",
     "autoprefixer": "latest",
-    "babel-loader": "latest",
     "cssnano": "latest",
     "html-minifier": "latest",
     "lodash": "latest",
@@ -41,8 +37,7 @@
     "normalize.css": "latest",
     "prism-themes": "latest",
     "tailwindcss": "latest",
-    "postcss":"latest",
-    "webpack-stream": "latest"
+    "postcss":"latest"
   },
   "dependencies": {
     "highlight.js": "latest",
